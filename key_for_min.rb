@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
       lowest_name = name
     end
   end
-  puts name
+  puts lowest_name
 end
 
 hash = {:blake => 500, :ashley => 2, :adam => 1}
