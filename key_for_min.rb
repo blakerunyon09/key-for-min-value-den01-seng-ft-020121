@@ -8,9 +8,10 @@ def key_for_min_value(name_hash)
       last_num = num
     elsif num < last_num
       last_num = num
-      puts name = name
+      name = name
     end
   end
+  name
 end
 
 hash = {:blake => 500, :ashley => 2, :adam => 1}
