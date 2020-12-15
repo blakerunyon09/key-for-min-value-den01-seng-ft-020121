@@ -12,7 +12,8 @@ def key_for_min_value(name_hash)
       min_k = k
       min_v = v
     end
-    min_k
+  end
+  return min_k
 end
 
 hash = {:blake => 10, :ashley => 50, :adam => 17}
