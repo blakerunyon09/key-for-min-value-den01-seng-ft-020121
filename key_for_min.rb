@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
       last_num = num
     elsif num < last_num
       last_num = num
-      return name = name
+      puts name = name
     end
   end
 end
